@@ -15,6 +15,11 @@ As such, we are publishing our design, assembly instructions, MSDS, QC checklist
 We are working with local health authorities in Montréal to produce desperately needed medical supplies and protective equipment.
 Specifically, we are fabricating face shield to help protect our front line workers from splash and debris.
 
+Our design and manufacturing methodology focuses on fulfilling short-term needs using additive manufacturing (e.g., 3D printing) to act as a stopgap while organizing medium-volume manufacturing (e.g., laser cutting, die cutting).
+This two-step approach leverages our expertise (additive manufacturing) as well as a robust and local supply chain.
+In this way, urgent needs due to shortages can be successfully satisfied while large-volume manufacturing (e.g., molding) catches up.
+As such, the chosen face shield design is optimized for both laser cutting and 3D printing.
+
 ## Face Shield Design
 
 Our face shield design is based on the [open-source work published by Georgia Tech](https://pwp.gatech.edu/rapid-response/face-shields/).
@@ -28,6 +33,26 @@ While the design is nearly identical, we have made the following modifications:
 
 These modifications were done to better support our specialty, additive manufacturing, while also being compatible with future medium volume production methods, such as laser cutting.
 
+### Requirements and Specifications
+
+#### Visor
+
+- Must provide adequate coverage (CSA Z94.3 Sections 10.2.1/10.2.2/10.3/10.4)
+- Should made of optically clear, distortion free, lightweight materials (CSA Standard Z94.3.1-16)
+- Should be free of visible defects or flaws that would impede vision (ANSI Z87.1 Section 9.4)
+- Should allow adequate space between the wearer’s face and the inner surface of the visor to allow for the use of ancillary equipment (medical/surgical mask, respirator, eyewear, etc.)
+- Device should withstand impact from sharp or fast projectiles (ANSI Z87.1 Section 9.2 and 9.3, CSA Z94.3 Section 10.1)
+- Material: PC, PETG, PET, Acetal, POM, Polypropylene, or PVC
+- Thickness: 0.01” - 0.03”
+
+#### Frame
+
+- Device should fit snugly to afford a good seal to the forehead area and to prevent slippage of the device
+- User contacting materials should provide adequate material biocompatibility (skin sensitivity and cytotoxic testing) (ISO 10993-5, 10)
+- Must resist isopropyl alcohol (IPA)
+- Material: PC, ABS, or Acetal
+- Thickness: 1/8" or 3/16"
+
 ## Design Files
 
 All design files may be found in the [models](models/) folder.
@@ -35,6 +60,7 @@ All design files may be found in the [models](models/) folder.
 - `DXF` files are for laser cutting
 - `STL` files are for 3D printing
 - `SLDPRT` and `STEP` files are for 3D CAD software (e.g., Solidworks, Inventor, Fusion 360)
+- `factory` files are for [Simplify3D](https://www.simplify3d.com/) and are designed to work for the [AON-M2 industrial 3D printer](https://www.aon3d.com/aon-m2-2020-industrial-3d-printer/)
 
 ## Documentation
 
