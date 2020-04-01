@@ -20,7 +20,9 @@ This two-step approach leverages our expertise (additive manufacturing) as well 
 In this way, urgent needs due to shortages can be successfully satisfied while large-volume manufacturing (e.g., molding) catches up.
 As such, the chosen face shield design is optimized for both laser cutting and 3D printing.
 
-![face shield](face-shield.jpg)
+<p>
+<img src="face-shield.jpg" alt="Face shield." width="400px">
+</p>
 
 ## Face Shield Design
 
