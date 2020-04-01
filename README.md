@@ -20,6 +20,8 @@ This two-step approach leverages our expertise (additive manufacturing) as well 
 In this way, urgent needs due to shortages can be successfully satisfied while large-volume manufacturing (e.g., molding) catches up.
 As such, the chosen face shield design is optimized for both laser cutting and 3D printing.
 
+![face shield](face-shield.jpg)
+
 ## Face Shield Design
 
 Our face shield design is based on the [open-source work published by Georgia Tech](https://pwp.gatech.edu/rapid-response/face-shields/).
