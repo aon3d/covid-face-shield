@@ -102,10 +102,10 @@ Not regulated or restricted.
 ## Minimum Specifications in Urgent Manufacturing Scenarios
 
 - Device must provide adequate coverage (CSA Z94.3 Sections 10.2.1/10.2.2/10.3/10.4).
-- Device should made of optically clear, distortion free, lightweight materials (refer to CSA Standard Z94.3.1-16 and Footnote 1)
+- Device should made of optically clear, distortion free, lightweight materials (CSA Standard Z94.3.1-16)
 - Device should be free of visible defects or flaws that would impede vision (ANSI Z87.1 Section 9.4)
-- The device should allow adequate space between the wearer’s face and the inner surface of the visor to allow for the use of ancillary equipment (medical/surgical mask, respirator, eyewear, etc.) Footnote 1.
-- Device should fit snugly to afford a good seal to the forehead area and to prevent slippage of the device Footnote 1.
+- The device should allow adequate space between the wearer’s face and the inner surface of the visor to allow for the use of ancillary equipment (medical/surgical mask, respirator, eyewear, etc.)
+- Device should fit snugly to afford a good seal to the forehead area and to prevent slippage of the device
 - Device should withstand impact from sharp or fast projectiles (ANSI Z87.1 Section 9.2 and 9.3, CSA Z94.3 Section 10.1)
 - If available, device should display anti-fog behavior on inside and outside of shield. (CSA Standard Z94.3.1-16)
 - User contacting materials should provide adequate material biocompatibility (skin sensitivity and cytotoxic testing) (ISO 10993-5, 10)
