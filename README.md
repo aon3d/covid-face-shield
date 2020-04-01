@@ -22,6 +22,18 @@ As such, the chosen face shield design is optimized for both laser cutting and 3
 
 ![face shield](face-shield.jpg)
 
+## Contents:
+
+1. [Face Shield Design](#face-shield-design)
+2. [Requirements and Specs](#requirements-and-specifications)
+    * [Visor](#visor)
+    * [Frame](#frame)
+    * [Handling](#handling)
+    * [Packaging](#packaging)
+3. [Design Files](#design-files)
+4. [Documentation](#documentation)
+5. [Development](#development)
+
 ## Face Shield Design
 
 Our face shield design is based on the [open-source work published by Georgia Tech](https://pwp.gatech.edu/rapid-response/face-shields/).
