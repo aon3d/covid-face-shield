@@ -31,7 +31,7 @@ These modifications were done to better support our specialty, additive manufact
 
 All design files may be found in the [models](models/) folder.
 
-- `EPS`, `PDF`, and `DXF` files are for laser cutting
+- `DXF` files are for laser cutting
 - `STL` files are for 3D printing
 - `SLDPRT` and `STEP` files are for 3D CAD software (e.g., Solidworks, Inventor, Fusion 360)
 
