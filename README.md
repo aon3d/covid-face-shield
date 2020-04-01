@@ -2,7 +2,7 @@
 
 # COVID-19 Face Shield
 
-> Need 3D Printed Medical Supplies to Fight COVID-19?
+> [Need 3D Printed Medical Supplies to Fight COVID-19?](https://www.aon3d.com/3d-printed-medical-supplies-to-fight-covid-19/)
 
 The government of Canada has [recently come out with guidance](https://www.canada.ca/en/health-canada/services/drugs-health-products/medical-devices/covid-19-unconventional-manufacturing-personal-protective-equipment.html) regarding unconventional manufacturing of personal protective equipment in response to COVID-19.
 As there are already many sites, forums, and social media efforts organizing people with access to 3D printers to support their local healthcare workers, we wanted to help standardize the design efforts.
