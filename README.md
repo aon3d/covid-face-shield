@@ -55,9 +55,12 @@ These modifications were done to better support our specialty, additive manufact
 
 ### Handling
 
+As it seems a person can carry the virus and be asymptomatic, it is best to act as if you may be contagious and take precautions to avoid contaminating the face shield during production.
+
 - Wash your hands before entering the manufacturing area
 - Wash your hands before removing prints
 - Wipe down tools with IPA before using them to remove prints
+- Wear a mask while handling prints
 - Touch points on printers (anywhere you might touch the machine) are wiped down regularly with IPA every 4h (e.g., twice a shift)
 - Do not enter the manufacturing area unless you are the designated operator on shift
 - Prints are immediately bagged after removal from the machine
