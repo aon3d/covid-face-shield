@@ -5,7 +5,8 @@ pdf: pdf-msds pdf-assembly
 
 .PHONY: pdf-assembly
 pdf-assembly:
-	pandoc --template=pandoc-latex-template/eisvogel.tex --number-sections --resource-path=docs -V date=$(DATE) -o out/assembly.pdf docs/assembly.md
+	pandoc --template=pandoc-latex-template/eisvogel.tex --number-sections --resource-path=docs -V date=$(DATE) -o out/temp.pdf docs/assembly.md
+	gs -sDEVICE=pdfwrite -dCompatibilityLevel=1.4 -dNOPAUSE -dBATCH -dPDFSETTINGS=/printer -sOutputFile=out/assembly.pdf out/temp.pdf
 
 .PHONY: pdf-msds
 pdf-msds:
