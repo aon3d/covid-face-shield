@@ -53,6 +53,41 @@ These modifications were done to better support our specialty, additive manufact
 - Material: PC, ABS, or Acetal
 - Thickness: 1/8" or 3/16"
 
+### Handling
+
+- Wash your hands before entering the manufacturing area
+- Wash your hands before removing prints
+- Wipe down tools with IPA before using them to remove prints
+- Touch points on printers (anywhere you might touch the machine) are wiped down regularly with IPA every 4h (e.g., twice a shift)
+- Do not enter the manufacturing area unless you are the designated operator on shift
+- Prints are immediately bagged after removal from the machine
+
+### Packaging
+
+To make the user experience as simple as possible for front line workers, the following packaging procedure is recommended:
+
+#### Bag A (6” poly tubing)
+
+- 10x elastics
+
+#### Bag B (12” poly tubing)
+
+- 10x frames
+- QC checklist
+
+#### Bag C (12” poly tubing)
+
+- 10x face shield kits
+  - Bag A
+  - Bag B
+  - 10x visors
+  - Assembly instructions
+
+#### Box
+
+ - MSDS
+ - 10x Bag C
+
 ## Design Files
 
 All design files may be found in the [models](models/) folder.
