@@ -22,7 +22,7 @@ As such, the chosen face shield design is optimized for both laser cutting and 3
 
 ![face shield](face-shield.jpg)
 
-## Contents:
+## Contents
 
 1. [Face Shield Design](#face-shield-design)
 2. [Requirements and Specs](#requirements-and-specifications)
