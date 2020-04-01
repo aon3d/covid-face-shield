@@ -21,7 +21,7 @@ In this way, urgent needs due to shortages can be successfully satisfied while l
 As such, the chosen face shield design is optimized for both laser cutting and 3D printing.
 
 <p>
-<img src="face-shield.jpg" alt="Face shield." style="width:50%;">
+<img src="face-shield.jpg" alt="Face shield." style="width:400px;">
 </p>
 
 ## Face Shield Design
