@@ -20,6 +20,8 @@ This two-step approach leverages our expertise (additive manufacturing) as well 
 In this way, urgent needs due to shortages can be successfully satisfied while large-volume manufacturing (e.g., molding) catches up.
 As such, the chosen face shield design is optimized for both laser cutting and 3D printing.
 
+![face shield](face-shield.jpg)
+
 ## Face Shield Design
 
 Our face shield design is based on the [open-source work published by Georgia Tech](https://pwp.gatech.edu/rapid-response/face-shields/).
@@ -55,9 +57,12 @@ These modifications were done to better support our specialty, additive manufact
 
 ### Handling
 
+As it seems a person can carry the virus and be asymptomatic, it is best to act as if you may be contagious and take precautions to avoid contaminating the face shield during production.
+
 - Wash your hands before entering the manufacturing area
 - Wash your hands before removing prints
 - Wipe down tools with IPA before using them to remove prints
+- Wear a mask while handling prints
 - Touch points on printers (anywhere you might touch the machine) are wiped down regularly with IPA every 4h (e.g., twice a shift)
 - Do not enter the manufacturing area unless you are the designated operator on shift
 - Prints are immediately bagged after removal from the machine
