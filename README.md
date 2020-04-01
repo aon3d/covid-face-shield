@@ -43,3 +43,27 @@ PDFs of the documentation may be found [here](https://github.com/aon3d/covid-fac
 
 - Material Safety Data Sheets ([English](docs/msds-en.md) and [French](docs/msds-fr.md)) are available
 - [Assembly instructions](docs/assembly.md)
+
+## Development
+
+### PDF Generation
+
+#### Requirements
+
+- [`pandoc`](https://pandoc.org/)
+- `make`
+- [`ghostscript`](https://www.ghostscript.com/)
+- `texlive`
+
+#### Procedure
+
+To generate all PDFs:
+
+```bash
+make pdf
+```
+
+### Releases
+
+- This repo uses [Calendar Versioning (`CalVer`)](https://calver.org/overview.html), with the following format: `YYYY.MM.DD`
+- Generated PDFs should be attached to the [GitHub release](https://github.com/aon3d/covid-face-shield/releases/latest)
