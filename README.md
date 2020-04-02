@@ -33,8 +33,9 @@ As such, the chosen face shield design is optimized for both laser cutting and 3
     * [Handling](#handling)
     * [Packaging](#packaging)
 3. [Design Files](#design-files)
-4. [Documentation](#documentation)
-5. [Development](#development)
+4. [Printing Instructions](#printing-instructions)
+5. [Documentation](#documentation)
+6. [Development](#development)
 
 ## Face Shield Design
 
@@ -123,6 +124,47 @@ PDFs of the documentation may be found [here](https://github.com/aon3d/covid-fac
 
 - Material Safety Data Sheets ([English](docs/msds-en.md) and [French](docs/msds-fr.md)) are available
 - [Assembly instructions](docs/assembly.md)
+
+## Printing Instructions
+Theses printing instruction are meant for printing on a AON-M2 or an AON-M2-2020.
+
+### Printer Preparation
+1. Install a 0.6 mm nozzle heater block assembly. Instructions [here](https://docs.aon3d.com/maintenance/replace_hba/). 
+2. Install the aluminum build plate. Ensure that the Kapton tape is in good condition on all the surfaces. (If not, follow [this procedure](https://docs.aon3d.com/maintenance/kapton_application/)to replace it. 
+3. Clean the surface with IPA (isopropyl alcohol) 70% concentration minimum.
+4. Load ABS in the 0.6 mm toolhead you want to use. Instructions [here](https://docs.aon3d.com/operation/material_switch/).
+5. Preheat the machine to the following temperatures:
+
+| Component  | Temperature |  
+|:----------:|:-----------:|
+| Extruder   | 250°C       |  
+| Build platform  | 105°C  | 
+| Chamber    | 60°C        | 
+6. Once the chamber has reached thermal equilibrium, initiate the probing sequence on the entire bed  and set the Z offset. Instructions [here](https://docs.aon3d.com/calibration/z_calibration/).
+
+
+### Frame Printing
+
+We have included two generated G-codes that are ready to upload in your machine for you to start to print as soon as possible. They are intended to be used with ABS on a 0.6 mm nozzle. One of the G-code is for T0 (left toolhead), the other one is for T1 (right toolhead).
+
+If you wish to modify the files, we also included the factory files to use with Simplify 3D. However, our settings have been tested and any modification can cause print defects.
+
+Each print will get you 5 face shield frames. 
+
+Plan 112g of ABS filament and 2 hours of print time per print.
+
+
+### Frame Removal
+How to remove the part from the build platform. It is suggested to proceed as if you were diagnosed with the virus and were very cautious about not transmitting it.
+
+- Wear a mask.
+- Wear latex gloves, sanitize your hands with IPA.
+- Sanitize the printer’s door and screen with IPA.
+- Sanitize a spatula scraper with IPA.
+- Lower the bed and move the toolhead so you can access the parts easily. **The parts and machines might be hot!**
+- Remove the skirt (single outline of material).
+- With the scraper, carefully detach the extremity of the face shield frame. This will initiate the rest of the removal. Gently detach the part by placing the scraper under the part.
+- Place the parts in a sanitized bag for storage.
 
 ## Development
 
