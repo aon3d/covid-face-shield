@@ -130,6 +130,7 @@ PDFs of the documentation may be found [here](https://github.com/aon3d/covid-fac
 The following instructions are intended for printing using the AON-M2 or an AON-M2-2020.
 
 ### Printer Preparation
+
 1. Install a 0.6 mm nozzle heater block assembly. Instructions [here](https://docs.aon3d.com/maintenance/replace_hba/). 
 2. Install the aluminum build plate. Ensure that the Kapton tape is in good condition on all the surfaces. (If not, follow [this procedure](https://docs.aon3d.com/maintenance/kapton_application/)to replace it. 
 3. Clean the surface with IPA (isopropyl alcohol) 70% concentration minimum.
