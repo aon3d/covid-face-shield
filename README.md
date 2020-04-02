@@ -164,6 +164,7 @@ Plan 112g of ABS filament and 2 hours of print time per print.
 
 
 ### Frame Removal
+
 How to remove the part from the build platform. It is suggested to proceed as if you were diagnosed with the virus and were very cautious about not transmitting it.
 
 - Wear a mask.
