@@ -158,7 +158,7 @@ One G-code file is specific for printing with T0 (left toolhead) and the other i
 If you wish to modify the files, the original factory files for use with Simplify 3D have been included.
 However, the specified settings have been tested and any modification may cause print defects.
 
-Each print will get you 5 face shield frames. 
+Each print will yield 5 face shield frames. 
 
 Plan 112g of ABS filament and 2 hours of print time per print.
 
