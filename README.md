@@ -89,12 +89,11 @@ To make the user experience as simple as possible for front line workers, the fo
 
 #### Bag A (6” poly tubing)
 
-- 10x elastics
+- 40x elastics
 
 #### Bag B (12” poly tubing)
 
 - 10x frames
-- QC checklist
 
 #### Bag C (12” poly tubing)
 
