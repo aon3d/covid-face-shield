@@ -126,7 +126,8 @@ PDFs of the documentation may be found [here](https://github.com/aon3d/covid-fac
 - [Assembly instructions](docs/assembly.md)
 
 ## Printing Instructions
-Theses printing instruction are meant for printing on a AON-M2 or an AON-M2-2020.
+
+The following instructions are intended for printing using the AON-M2 or an AON-M2-2020.
 
 ### Printer Preparation
 1. Install a 0.6 mm nozzle heater block assembly. Instructions [here](https://docs.aon3d.com/maintenance/replace_hba/). 
