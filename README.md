@@ -145,6 +145,7 @@ The following instructions are intended for printing using the AON-M2 or an AON-
 | Build platform  | 105°C  | 
 | Chamber    | 60°C        | 
 
+
 6. Once the chamber has reached thermal equilibrium, initiate the probing sequence on the entire bed  and set the Z offset. Instructions [here](https://docs.aon3d.com/calibration/z_calibration/).
 
 
