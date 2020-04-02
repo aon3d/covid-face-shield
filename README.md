@@ -152,7 +152,8 @@ We have included two generated G-code files that are ready for use on the AON-M2
 They are intended for use with ABS and a 0.6 mm nozzle.
 One G-code file is specific for printing with T0 (left toolhead) and the other is for use with T1 (right toolhead).
 
-If you wish to modify the files, we also included the factory files to use with Simplify 3D. However, our settings have been tested and any modification can cause print defects.
+If you wish to modify the files, the original factory files for use with Simplify 3D have been included.
+However, the specified settings have been tested and any modification may cause print defects.
 
 Each print will get you 5 face shield frames. 
 
