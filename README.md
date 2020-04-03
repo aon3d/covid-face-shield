@@ -28,15 +28,27 @@ As such, the chosen face shield design is optimized for both laser cutting and 3
 
 ## Contents
 
-1. [Face Shield Design](#face-shield-design)
-2. [Requirements and Specs](#requirements-and-specifications)
-    * [Visor](#visor)
-    * [Frame](#frame)
-    * [Handling](#handling)
-    * [Packaging](#packaging)
-3. [Design Files](#design-files)
-4. [Documentation](#documentation)
-5. [Development](#development)
+- [COVID-19 Face Shield](#covid-19-face-shield)
+  - [How are we helping?](#how-are-we-helping)
+  - [Contents](#contents)
+  - [Face Shield Design](#face-shield-design)
+    - [Requirements and Specifications](#requirements-and-specifications)
+      - [Visor](#visor)
+      - [Frame](#frame)
+    - [Bill of Materials](#bill-of-materials)
+    - [Handling](#handling)
+    - [Packaging](#packaging)
+      - [Bag A (6” poly tubing)](#bag-a-6-poly-tubing)
+      - [Bag B (12” poly tubing)](#bag-b-12-poly-tubing)
+      - [Bag C (12” poly tubing)](#bag-c-12-poly-tubing)
+      - [Box](#box)
+  - [Design Files](#design-files)
+  - [Documentation](#documentation)
+  - [Development](#development)
+    - [PDF Generation](#pdf-generation)
+      - [Requirements](#requirements)
+      - [Procedure](#procedure)
+    - [Releases](#releases)
 
 ## Face Shield Design
 
@@ -70,6 +82,15 @@ These modifications were done to better support our specialty, additive manufact
 - Must resist isopropyl alcohol (IPA)
 - Material: PC, ABS, or Acetal
 - Thickness: 1/8" or 3/16"
+
+### Bill of Materials
+
+| Item | Qty | Comments |
+|---|---|---|
+| Frame | 1 | Laser cut or 3D printed |
+| Visor | 1 | Laser or die cut |
+| Elastic | 4+ | Size 33 (e.g., McMaster-Carr `12205T78`) |
+
 
 ### Handling
 
