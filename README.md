@@ -165,12 +165,8 @@ Plan 112g of ABS filament and 2 hours of print time per print.
 
 ### Frame Removal
 
-How to remove the part from the build platform. It is suggested to proceed as if you were diagnosed with the virus and were very cautious about not transmitting it.
+How to remove the part from the build platform. Proceed following the aformentioned [handling(#handling) guidelines. 
 
-- Wear a mask.
-- Wear latex gloves, sanitize your hands with IPA.
-- Sanitize the printer’s door and screen with IPA.
-- Sanitize a spatula scraper with IPA.
 - Lower the bed and move the toolhead so you can access the parts easily. **The parts and machines might be hot!**
 - Remove the skirt (single outline of material).
 - With the scraper, carefully detach the extremity of the face shield frame. This will initiate the rest of the removal. Gently detach the part by placing the scraper under the part.
