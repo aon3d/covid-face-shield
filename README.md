@@ -4,6 +4,8 @@
 
 > [Need 3D Printed Medical Supplies to Fight COVID-19?](https://www.aon3d.com/3d-printed-medical-supplies-to-fight-covid-19/)
 
+TL;DR: [Here is what the model looks like](https://github.com/aon3d/covid-face-shield/blob/master/models/COVID-001-Face-Shield-Frame.STL).
+
 The government of Canada has [recently come out with guidance](https://www.canada.ca/en/health-canada/services/drugs-health-products/medical-devices/covid-19-unconventional-manufacturing-personal-protective-equipment.html) regarding unconventional manufacturing of personal protective equipment in response to COVID-19.
 As there are already many sites, forums, and social media efforts organizing people with access to 3D printers to support their local healthcare workers, we wanted to help standardize the design efforts.
 
@@ -26,15 +28,27 @@ As such, the chosen face shield design is optimized for both laser cutting and 3
 
 ## Contents
 
-1. [Face Shield Design](#face-shield-design)
-2. [Requirements and Specs](#requirements-and-specifications)
-    * [Visor](#visor)
-    * [Frame](#frame)
-    * [Handling](#handling)
-    * [Packaging](#packaging)
-3. [Design Files](#design-files)
-4. [Documentation](#documentation)
-5. [Development](#development)
+- [COVID-19 Face Shield](#covid-19-face-shield)
+  - [How are we helping?](#how-are-we-helping)
+  - [Contents](#contents)
+  - [Face Shield Design](#face-shield-design)
+    - [Requirements and Specifications](#requirements-and-specifications)
+      - [Visor](#visor)
+      - [Frame](#frame)
+    - [Bill of Materials](#bill-of-materials)
+    - [Handling](#handling)
+    - [Packaging](#packaging)
+      - [Bag A (6” poly tubing)](#bag-a-6-poly-tubing)
+      - [Bag B (12” poly tubing)](#bag-b-12-poly-tubing)
+      - [Bag C (12” poly tubing)](#bag-c-12-poly-tubing)
+      - [Box](#box)
+  - [Design Files](#design-files)
+  - [Documentation](#documentation)
+  - [Development](#development)
+    - [PDF Generation](#pdf-generation)
+      - [Requirements](#requirements)
+      - [Procedure](#procedure)
+    - [Releases](#releases)
 
 ## Face Shield Design
 
@@ -69,6 +83,15 @@ These modifications were done to better support our specialty, additive manufact
 - Material: PC, ABS, or Acetal
 - Thickness: 1/8" or 3/16"
 
+### Bill of Materials
+
+| Item | Qty | Comments |
+|---|---|---|
+| Frame | 1 | Laser cut or 3D printed |
+| Visor | 1 | Laser or die cut |
+| Elastic | 4+ | Size 33 (e.g., McMaster-Carr `12205T78`) |
+
+
 ### Handling
 
 As it seems a person can carry the virus and be asymptomatic, it is best to act as if you may be contagious and take precautions to avoid contaminating the face shield during production.
@@ -87,12 +110,11 @@ To make the user experience as simple as possible for front line workers, the fo
 
 #### Bag A (6” poly tubing)
 
-- 10x elastics
+- 40x elastics
 
 #### Bag B (12” poly tubing)
 
 - 10x frames
-- QC checklist
 
 #### Bag C (12” poly tubing)
 
