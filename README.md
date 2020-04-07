@@ -60,8 +60,9 @@ While the design is nearly identical, we have made the following modifications:
 - Frame
   - -0.25mm horizontal compensation
   - Thickness of 1/8" (3.175mm)
+  - A second iteration of the frame is available and accommodates CNC milling with a 1/8" cutter.
 
-These modifications were done to better support our specialty, additive manufacturing, while also being compatible with future medium volume production methods, such as laser cutting.
+These modifications were done to better support our specialty, additive manufacturing, while also being compatible with future medium volume production methods, such as laser cutting and CNC milling.
 
 ### Requirements and Specifications
 
