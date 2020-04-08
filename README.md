@@ -160,7 +160,7 @@ However, the specified settings have been tested and any modification may cause 
 
 Each print will yield 5 face shield frames. 
 
-Plan 112g of ABS filament and 2 hours of print time per print.
+Plan 112g of ABS filament and just over 2 hours of print time per print.
 
 
 ### Frame Removal
