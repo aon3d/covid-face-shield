@@ -136,17 +136,28 @@ The following instructions are intended for printing using the AON-M2 or AON-M2 
 1. Install a 0.6 mm nozzle heater block assembly. Instructions [here](https://docs.aon3d.com/maintenance/replace_hba/). 
 2. Install the aluminum build plate. Ensure that the Kapton tape is in good condition on all the surfaces. (If not, follow [this procedure](https://docs.aon3d.com/maintenance/kapton_application/) to replace it. 
 3. Clean the surface with IPA (isopropyl alcohol), minimum concentration of 70% for disinfection purposes.
+4. Apply an adhesive to the build platform to ensure ABS adhesion. Dimafix or hairspray are tested adhesives for ABS.
 4. Load ABS in the 0.6 mm toolhead you want to use. Instructions [here](https://docs.aon3d.com/operation/material_switch/).
 5. Preheat the machine to the following temperatures:
 
 | Component  | Temperature |  
-|:----------:|:-----------:|
-| Extruder   | 250°C       |  
+|:----------:|:-----------:| 
 | Build platform  | 105°C  | 
 | Chamber    | 60°C        | 
 
 
 6. Once the chamber has reached thermal equilibrium, initiate the probing sequence on the entire bed  and set the Z offset. Instructions [here](https://docs.aon3d.com/calibration/z_calibration/).
+
+Use these probe bounds:
+
+| Parameter  | Value |  
+|:----------:|:-----:| 
+| Left       | 15    | 
+| Right      | 435   |
+| X Count    | 10    |
+| Front      | 15    |
+| Back/Rear  | 435   |
+| Y Count    | 10    |
 
 
 ### Frame Printing
@@ -167,7 +178,9 @@ Plan 112g of ABS filament and just over 2 hours of print time per print.
 
 How to remove the part from the build platform. Proceed following the aformentioned [handling](#handling) guidelines. 
 
-- Lower the bed and move the toolhead so you can access the parts easily. **The parts and machines might be hot!**
+**The parts and machines are hot!**
+- At the end of the print, the toolheads will move to the back of the machine for easy access to the printed frames.
+- The toolheads, the build platform and the chamber will remain heated to allow for a quick restart.
 - Remove the skirt (single outline of material).
 - With the scraper, carefully detach the extremity of the face shield frame. This will initiate the rest of the removal. Gently detach the part by placing the scraper under the part.
 - Place the parts in a sanitized bag for storage.
