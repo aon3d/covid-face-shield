@@ -15,4 +15,4 @@ and this project adheres to [Calendar Versioning](https://calver.org/).
 ### Changed
 
 - Revision numbers on all model files
-- Added Descriptor of CNC file addition to README.md
+- Added descriptor of CNC file addition to `README.md`
