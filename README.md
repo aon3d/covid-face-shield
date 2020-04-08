@@ -143,7 +143,7 @@ All design files may be found in the [models](models/) folder.
 All documentation files may be found in the [docs](docs/) folder.
 PDFs of the documentation may be found [here](https://github.com/aon3d/covid-face-shield/releases/latest).
 
-- Material Safety Data Sheets ([English](docs/msds-en.md) , [French](docs/msds-fr.md) and [Spanish](docs/msds-es.md)) are available
+- Material Safety Data Sheets ([English](docs/msds-en.md), [French](docs/msds-fr.md) and [Spanish](docs/msds-es.md)) are available
 - [Assembly instructions](docs/assembly.md)
 
 ## Development
