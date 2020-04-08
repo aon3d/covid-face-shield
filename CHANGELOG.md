@@ -7,7 +7,6 @@ and this project adheres to [Calendar Versioning](https://calver.org/).
 
 ## Unreleased
 
-## (20.04.01) - 2020-04-07
 
 ### Added
 
