@@ -12,3 +12,4 @@ pdf-assembly:
 pdf-msds:
 	pandoc --template=pandoc-latex-template/eisvogel.tex --number-sections --resource-path=docs -V date=$(DATE) -o out/msds-en.pdf docs/msds-en.md
 	pandoc --template=pandoc-latex-template/eisvogel.tex --number-sections --resource-path=docs -V date=$(DATE) -o out/msds-fr.pdf docs/msds-fr.md
+	pandoc --template=pandoc-latex-template/eisvogel.tex --number-sections --resource-path=docs -V date=$(DATE) -o out/msds-es.pdf docs/msds-es.md
