@@ -165,7 +165,7 @@ Plan 112g of ABS filament and just over 2 hours of print time per print.
 
 ### Frame Removal
 
-How to remove the part from the build platform. Proceed following the aformentioned [handling(#handling) guidelines. 
+How to remove the part from the build platform. Proceed following the aformentioned [handling](#handling) guidelines. 
 
 - Lower the bed and move the toolhead so you can access the parts easily. **The parts and machines might be hot!**
 - Remove the skirt (single outline of material).
