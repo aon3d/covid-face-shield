@@ -10,7 +10,7 @@ and this project adheres to [Calendar Versioning](https://calver.org/).
 
 ### Added
 
-- COVID-001-Face-Shield-Frame_CNC_1_8-R01 .STEP and DXF for CNC milling w/ 1/8" cutter.
+- `COVID-001-Face-Shield-Frame_CNC_1_8-R01` STEP and DXF for CNC milling w/ 1/8" cutter
 
 ### Changed
 
