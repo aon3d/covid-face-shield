@@ -204,7 +204,7 @@ How to remove the part from the build platform. Proceed following the aformentio
 
 **The parts and machines are hot!**
 - At the end of the print, the toolheads will move to the back of the machine for easy access to the printed frames.
-- The toolheads, the build platform and the chamber will remain heated to allow for a quick restart.
+- The build platform and the chamber will remain heated to allow for a quick restart.
 - Remove the skirt (single outline of material).
 - With the scraper, carefully detach the extremity of the face shield frame. This will initiate the rest of the removal. Gently detach the part by placing the scraper under the part.
 - Place the parts in a sanitized bag for storage.
