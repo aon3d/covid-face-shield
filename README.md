@@ -35,7 +35,6 @@ As such, the chosen face shield design is optimized for both laser cutting and 3
     - [Requirements and Specifications](#requirements-and-specifications)
       - [Visor](#visor)
       - [Frame](#frame)
-    - [Bill of Materials](#bill-of-materials)
     - [Handling](#handling)
     - [Packaging](#packaging)
       - [Bag A (6” poly tubing)](#bag-a-6-poly-tubing)
@@ -44,6 +43,10 @@ As such, the chosen face shield design is optimized for both laser cutting and 3
       - [Box](#box)
   - [Design Files](#design-files)
   - [Documentation](#documentation)
+  - [Printing Instructions](#printing-instructions)
+    - [Printer Preparation](#printer-preparation)
+    - [Frame Printing](#frame-printing)
+    - [Frame Removal](#frame-removal)
   - [Development](#development)
     - [PDF Generation](#pdf-generation)
       - [Requirements](#requirements)
@@ -101,7 +104,6 @@ As it seems a person can carry the virus and be asymptomatic, it is best to act 
 - Wash your hands before removing prints
 - Wipe down tools with IPA before using them to remove prints
 - Wear a mask while handling prints
-- Touch points on printers (anywhere you might touch the machine) are wiped down regularly with IPA every 4h (e.g., twice a shift)
 - Do not enter the manufacturing area unless you are the designated operator on shift
 - Prints are immediately bagged after removal from the machine
 
@@ -146,6 +148,66 @@ PDFs of the documentation may be found [here](https://github.com/aon3d/covid-fac
 
 - Material Safety Data Sheets ([English](docs/msds-en.md), [French](docs/msds-fr.md) and [Spanish](docs/msds-es.md)) are available
 - [Assembly instructions](docs/assembly.md)
+
+## Printing Instructions
+
+
+The following instructions are intended for printing using the AON-M2 or AON-M2 2020.
+
+### Printer Preparation
+
+
+1. Install a 0.6 mm nozzle heater block assembly. Instructions [here](https://docs.aon3d.com/maintenance/replace_hba/). 
+2. Install the aluminum build plate. Ensure that the Kapton tape is in good condition on all the surfaces. (If not, follow [this procedure](https://docs.aon3d.com/maintenance/kapton_application/) to replace it. 
+3. Clean the surface with IPA (isopropyl alcohol), minimum concentration of 70% for disinfection purposes.
+4. Apply an adhesive to the build platform to ensure ABS adhesion. Dimafix or hairspray are tested adhesives for ABS.
+4. Load ABS in the 0.6 mm toolhead you want to use. Instructions [here](https://docs.aon3d.com/operation/material_switch/).
+5. Preheat the machine to the following temperatures:
+
+| Component  | Temperature |  
+|:----------:|:-----------:| 
+| Build platform  | 105°C  | 
+| Chamber    | 60°C        | 
+
+
+6. Once the chamber has reached thermal equilibrium, initiate the probing sequence on the entire bed  and set the Z offset. Instructions [here](https://docs.aon3d.com/calibration/z_calibration/).
+
+Use these probe bounds:
+
+| Parameter  | Value |  
+|:----------:|:-----:| 
+| Left       | 15    | 
+| Right      | 435   |
+| X Count    | 10    |
+| Front      | 15    |
+| Back/Rear  | 435   |
+| Y Count    | 10    |
+
+
+### Frame Printing
+
+We have included two generated G-code files that are ready for use on the AON-M2 and AON-M2-2020.
+They are intended for use with ABS and a 0.6 mm nozzle.
+One G-code file is specific for printing with T0 (left toolhead) and the other is for use with T1 (right toolhead).
+
+If you wish to modify the files, the original factory files for use with Simplify 3D have been included.
+However, the specified settings have been tested and any modification may cause print defects.
+
+Each print will yield 5 face shield frames. 
+
+Plan 112g of ABS filament and just over 2 hours of print time per print.
+
+
+### Frame Removal
+
+How to remove the part from the build platform. Proceed following the aformentioned [handling](#handling) guidelines. 
+
+**The parts and machines are hot!**
+- At the end of the print, the toolheads will move to the back of the machine for easy access to the printed frames.
+- The build platform and the chamber will remain heated to allow for a quick restart.
+- Remove the skirt (single outline of material).
+- With the scraper, carefully detach the extremity of the face shield frame. This will initiate the rest of the removal. Gently detach the part by placing the scraper under the part.
+- Place the parts in a sanitized bag for storage.
 
 ## Development
 
