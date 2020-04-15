@@ -232,3 +232,7 @@ make pdf
 
 - This repo uses [Calendar Versioning (`CalVer`)](https://calver.org/overview.html), with the following format: `YYYY.MM.DD`
 - Generated PDFs should be attached to the [GitHub release](https://github.com/aon3d/covid-face-shield/releases/latest)
+
+## Disclaimer
+
+Please see [`DISCLAIMER.md`](DISCLAIMER.md).
