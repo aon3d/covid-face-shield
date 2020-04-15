@@ -35,6 +35,7 @@ As such, the chosen face shield design is optimized for both laser cutting and 3
     - [Requirements and Specifications](#requirements-and-specifications)
       - [Visor](#visor)
       - [Frame](#frame)
+    - [Bill of Materials](#bill-of-materials)
     - [Handling](#handling)
     - [Packaging](#packaging)
       - [Bag A (6” poly tubing)](#bag-a-6-poly-tubing)
@@ -52,6 +53,7 @@ As such, the chosen face shield design is optimized for both laser cutting and 3
       - [Requirements](#requirements)
       - [Procedure](#procedure)
     - [Releases](#releases)
+  - [Disclaimer](#disclaimer)
 
 ## Face Shield Design
 
